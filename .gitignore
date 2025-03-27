@@ -1,0 +1,40 @@
+# 忽略 Python 编译文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略编译输出
+*.so
+*.o
+*.a
+*.exe
+
+# 忽略构建目录
+build/
+dist/
+*.egg-info/
+
+# 忽略 Transformer 训练数据、权重和 TensorBoard 日志
+transformer/runs/
+transformer/weights/
+transformer/*.json
+
+# 忽略 Jupyter Notebook 临时文件
+.ipynb_checkpoints/
+
+# 忽略 IDE 相关文件
+.vscode/
+.idea/
+
+# 忽略 CMake 和 Makefile 相关文件
+CMakeLists.txt.user
+Makefile
+CMakeCache.txt
+
+# 忽略日志文件
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
