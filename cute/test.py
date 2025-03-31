@@ -109,5 +109,5 @@ if __name__ == "__main__":
         for bs in [1, 2]:
             for head in [8, 16, 32]:
                 for seq_len in [64, 1024]:
-                    for dim in [32, 64, 128]:
+                    for dim in [32, 64, 128, 256]:
                         main(bs, head, seq_len, dim)
